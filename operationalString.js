@@ -9,6 +9,7 @@ export const parseStringToNumber = string => {
   number = number.replace(",", ".");
   return parseFloat(number);
 };
+/*   eslint-disable-next-line no-extend-native  */
 Number.prototype.parseNumberToString = function() {
   /* Asi es como funciona esto
   * Number.prototype.format(n, x, s, c)
